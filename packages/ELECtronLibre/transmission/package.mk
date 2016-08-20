@@ -1,6 +1,6 @@
 PKG_NAME="transmission"
 PKG_VERSION="2.92"
-PKG_REV="100"
+PKG_REV="101"
 PKG_ARCH="any"
 PKG_LICENSE="OSS"
 PKG_SITE="http://www.transmissionbt.com/"
@@ -19,10 +19,10 @@ PKG_ADDON_REPOVERSION="8.0"
 PKG_MAINTAINER="ELECtronLibre"
 
 PKG_CONFIGURE_OPTS_TARGET="--enable-daemon      \
-                           --enable-lightweight \
                            --enable-utp         \
                            --disable-nls        \
                            --with-gnu-ld"
+#                          --enable-lightweight \
 
 makeinstall_target() {
   : # nop
