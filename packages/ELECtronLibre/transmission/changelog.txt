@@ -1,2 +1,7 @@
+8.0.101:
+- Correct addon settings
+- Set kernel socket buffer sizes
+- Disable lightweight
+
 8.0.100:
 - Initial addon
