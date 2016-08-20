@@ -8,7 +8,7 @@
       <setting label="30005" type="text"   id="tx_password" default="" option="hidden" />
       <setting label="30006" type="lsep" />
       <setting label="30007" type="folder" option="writeable" id="tx_config"     default="/storage/.kodi/userdata/addon_data/service.transmission/config" />
-      <setting label="30008" type="folder" option="writeable" id="tx_downloads"  default="/storage/downloads/transmission/downloads" />
+      <setting label="30008" type="folder" option="writeable" id="tx_download"   default="/storage/downloads/transmission/downloads" />
       <setting label="30009" type="folder" option="writeable" id="tx_incomplete" default="/storage/downloads/transmission/incomplete" />
       <setting label="30010" type="folder" option="writeable" id="tx_watch"      default="/storage/downloads/transmission/watch" />
    </category>

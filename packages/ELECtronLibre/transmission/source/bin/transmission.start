@@ -15,8 +15,8 @@ then
   tx_auth="--auth --password $tx_password --username $tx_username"
 fi
 
-#echo 4194304 >/proc/sys/net/core/rmem_max
-#echo 1048576 >/proc/sys/net/core/wmem_max
+sysctl -w net.core.rmem_max=4194304
+sysctl -w net.core.wmem_max=1048576
 
 EVENT_NOEPOLL=1                        \
 TRANSMISSION_WEB_HOME="$ADDON_DIR/web" \
