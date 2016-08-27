@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+   <category   label="30000" >
+      <setting label="30001" type="lsep" />
+      <setting label="30002" type="lsep" />
+      <setting label="30003" type="lsep" />
+      <setting label="30004" type="lsep" />
+   </category>
+</settings>

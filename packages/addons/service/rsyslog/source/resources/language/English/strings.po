@@ -1,0 +1,25 @@
+# Kodi Media Center language file
+# Addon Name: service.rsyslog
+msgid ""
+msgstr ""
+
+msgctxt "#30000"
+msgid "Instructions"
+msgstr ""
+
+msgctxt "#30001"
+msgid " Configure rsyslog.conf"
+msgstr ""
+
+msgctxt "#30002"
+msgid "at smb://libreelec.local/userdata/addon_data/service.rsyslog/rsyslog.conf"
+msgstr ""
+
+msgctxt "#30003"
+msgid "or at /storage/userdata/addon_data/service.rsyslog/rsyslog.conf"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Then restart the service or reboot"
+msgstr ""
+
