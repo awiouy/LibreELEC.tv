@@ -4,7 +4,7 @@
 		<setting label="30010" type="lsep"/>
 		<setting label="30011" type="text" id="RSYSLOG_IP_NAME_FQDN" default="" />
 		<setting label="30012" type="number" id="RSYSLOG_PORT" default="514"/>
-		<setting label="30013" type="labelenum" id="RSYSLOG_PROTOCOL" default="UDP" />
+		<setting label="30013" type="labelenum" id="RSYSLOG_PROTOCOL" values="UDP|TCP" default="UDP" />
 		<setting label="30014" type="bool" id="RSYSLOG_JOURNAL_LOGGING" default="false" />
 		<setting label="30015" type="bool" id="RSYSLOG_KODI_LOGGING" default="true" />
    </category>
