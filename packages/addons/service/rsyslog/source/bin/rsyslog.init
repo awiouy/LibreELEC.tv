@@ -24,11 +24,6 @@ mkdir -p "$ADDON_HOME/conf"
 
 ADDON_SETTINGS="$ADDON_HOME/settings.xml"
 ADDON_DEST="$ADDON_HOME/conf"
-RSYSLOG_IP_NAME_FQDN=`grep RSYSLOG_IP_NAME_FQDN $ADDON_SETTINGS | awk '{print $3 }' | sed -e "s,value=,," -e "s,\",,g"`
-RSYSLOG_PORT=`grep RSYSLOG_PORT $ADDON_SETTINGS | awk '{print $3 }' | sed -e "s,value=,," -e "s,\",,g"`
-RSYSLOG_PROTOCOL=`grep RSYSLOG_PROTOCOL $ADDON_SETTINGS | awk '{print $3 }' | sed -e "s,value=,," -e "s,\",,g"`
-RSYSLOG_KODI_LOGGING=`grep RSYSLOG_KODI_LOGGING $ADDON_SETTINGS | awk '{print $3 }' | sed -e "s,value=,," -e "s,\",,g"`
-RSYSLOG_JOURNAL_LOGGING=`grep RSYSLOG_JOURNAL_LOGGING $ADDON_SETTINGS | awk '{print $3 }' | sed -e "s,value=,," -e "s,\",,g"`
 
 if [ ! -f "$ADDON_DEST/kodi.conf" ]
 then
