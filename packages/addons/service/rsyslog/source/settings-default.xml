@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<settings>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?> <settings>
     <category label="30000">
 		<setting label="30010" type="lsep"/>
 		<setting label="30011" type="text" id="RSYSLOG_IP_NAME_FQDN" default="" />
@@ -7,5 +6,5 @@
 		<setting label="30013" type="labelenum" id="RSYSLOG_PROTOCOL" default="UDP" />
 		<setting label="30014" type="bool" id="RSYSLOG_JOURNAL_LOGGING" default="false" />
 		<setting label="30015" type="bool" id="RSYSLOG_KODI_LOGGING" default="true" />
-   </category>
+    </category>
 </settings>
