@@ -3,30 +3,30 @@
 msgid ""
 msgstr ""
 
-msgctxt "#30010"
+msgctxt "#30000"
 msgid "RSYSLOG"
 msgstr ""
 
-msgctxt "#30011"
+msgctxt "#30010"
 msgid "Configuration"
 msgstr ""
 
-msgctxt "#30012"
+msgctxt "#30011"
 msgid "IP | Name | FQDN"
 msgstr ""
 
-msgctxt "#30013"
+msgctxt "#30012"
 msgid "Port"
 msgstr ""
 
-msgctxt "#30014"
+msgctxt "#30013"
 msgid "Protocol"
 msgstr ""
 
-msgctxt "#30015"
+msgctxt "#30014"
 msgid "Journal & Kernel Logging"
 msgstr ""
 
-msgctxt "#30016"
+msgctxt "#30015"
 msgid "Kodi Logging"
 msgstr ""
