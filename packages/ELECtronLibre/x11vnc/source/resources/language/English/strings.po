@@ -1,0 +1,16 @@
+# Kodi Media Center language file
+# Addon Name: service.x11vnc
+msgid ""
+msgstr ""
+
+msgctxt "#30000"
+msgid "Configuration"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Port"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Password"
+msgstr ""

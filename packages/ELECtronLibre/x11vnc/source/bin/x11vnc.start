@@ -1,0 +1,9 @@
+#!/bin/sh
+
+. /etc/profile
+oe_setup_addon service.system.x11vnc
+
+chmod a+x $ADDON_DIR/bin/*
+
+x11vnc -storepasswd $VNC_PASSWORD $ADDON_HOME/passwd.xbmc
+exec x11vnc -forever -loop -nopw -rfbauth $ADDON_HOME/passwd.xbmc -display :0 -rfbport $VNC_PORT
