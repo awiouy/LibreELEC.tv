@@ -20,9 +20,95 @@
 . /etc/profile
 oe_setup_addon service.rsyslog
 
-mkdir -p "$ADDON_HOME"
+mkdir -p "$ADDON_HOME/conf"
 
-if [ ! -f "$ADDON_HOME/rsyslog.conf" ]
+ADDON_SETTINGS="$ADDON_HOME/settings.xml"
+ADDON_DEST="$ADDON_HOME/conf"
+RSYSLOG_IP_NAME_FQDN=`grep RSYSLOG_IP_NAME_FQDN $ADDON_SETTINGS | awk '{print $3 }' | sed -e "s,value=,," -e "s,\",,g"`
+RSYSLOG_PORT=`grep RSYSLOG_PORT $ADDON_SETTINGS | awk '{print $3 }' | sed -e "s,value=,," -e "s,\",,g"`
+RSYSLOG_PROTOCOL=`grep RSYSLOG_PROTOCOL $ADDON_SETTINGS | awk '{print $3 }' | sed -e "s,value=,," -e "s,\",,g"`
+RSYSLOG_KODI_LOGGING=`grep RSYSLOG_KODI_LOGGING $ADDON_SETTINGS | awk '{print $3 }' | sed -e "s,value=,," -e "s,\",,g"`
+RSYSLOG_JOURNAL_LOGGING=`grep RSYSLOG_JOURNAL_LOGGING $ADDON_SETTINGS | awk '{print $3 }' | sed -e "s,value=,," -e "s,\",,g"`
+
+if [ ! -f "$ADDON_DEST/kodi.conf" ]
 then
-  cp "$ADDON_DIR/config/rsyslog.conf" "$ADDON_HOME"
+  cp "$ADDON_DIR/config/kodi.conf" "$ADDON_DEST"
+fi
+
+cat > "$ADDON_HOME/rsyslog.conf" << 'RSYSLOG_CONF_BLOCK_PRE'
+# rsyslog v5 configuration file
+
+# For more information see /usr/share/doc/rsyslog-*/rsyslog_conf.html
+# If you experience problems, see http://www.rsyslog.com/doc/troubleshoot.html
+
+#### MODULES ####
+
+$ModLoad imuxsock # provides support for local system logging (e.g. via logger command)
+RSYSLOG_CONF_BLOCK_PRE
+
+if [ "$RSYSLOG_KODI_LOGGING" == "false" ]
+then
+  echo '#$ModLoad imfile   # provides support to read the kodi.log file' >> "$ADDON_HOME/rsyslog.conf"
+else
+  echo '$ModLoad imfile   # provides support to read the kodi.log file' >> "$ADDON_HOME/rsyslog.conf"
+fi
+
+if [ "$RSYSLOG_JOURNAL_LOGGING" == "false" ]
+then
+  echo '#$ModLoad imjournal # provides journal logging support' >> "$ADDON_HOME/rsyslog.conf"
+  echo '#$ModLoad imklog   # provides kernel logging support' >> "$ADDON_HOME/rsyslog.conf"
+else
+  echo '$ModLoad imjournal # provides journal logging support' >> "$ADDON_HOME/rsyslog.conf"
+  echo '$ModLoad imklog   # provides kernel logging support' >> "$ADDON_HOME/rsyslog.conf"
+fi
+
+cat >> "$ADDON_HOME/rsyslog.conf" << 'RSYSLOG_CONF_BLOCK_POST'
+
+$OmitLocalLogging on
+$AddUnixListenSocket /run/systemd/journal/syslog
+
+#### GLOBAL DIRECTIVES ####
+
+# Use default timestamp format
+$ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
+
+# Include all config files in /storage/.kodi/userdata/addon_data/service.rsyslog/conf
+$IncludeConfig /storage/.kodi/userdata/addon_data/service.rsyslog/conf/*.conf
+
+#### RULES ####
+RSYSLOG_CONF_BLOCK_POST
+
+cat > "$ADDON_DEST/dest.conf" << 'RSYSLOG_DEST_BLOCK_PRE'
+# ### begin forwarding rule ###
+# The statement between the begin ... end define a SINGLE forwarding rule. 
+# They belong together, do NOT split them. If you create multiple 
+# forwarding rules, duplicate the whole block! Remote Logging (we use UDP 
+# as the default delivery, this can be changed in the rsyslog.conf to use 
+# TCP instead)
+#
+# An on-disk queue is created for this action. If the remote host is down, 
+# messages are spooled to disk and sent when it is up again.
+$WorkDirectory /storage/.kodi/temp # where to place spool files
+# remote host is: name/ip:port, e.g. 192.168.0.1:514, port optional *.*
+#@@remote-host:514
+RSYSLOG_DEST_BLOCK_PRE
+
+if [ "$RSYSLOG_PROTOCOL" == "UDP" ]
+then
+  PROTOCOL="@"
+else [ "$RSYSLOG_PROTOCOL" == "TCP" ]
+  PROTOCOL="@@"
+fi
+
+echo "*.* $PROTOCOL$RSYSLOG_IP_NAME_FQDN:$RSYSLOG_PORT" >> "$ADDON_DEST/dest.conf"
+
+cat >> "$ADDON_DEST/dest.conf" << 'RSYSLOG_DEST_BLOCK_POST'
+# ### end of the forwarding rule ###
+RSYSLOG_DEST_BLOCK_POST
+
+if [ "$RSYSLOG_KODI_LOGGING" == "false" ]
+then
+  rm "$ADDON_DEST/kodi.conf"
+else
+  cp "$ADDON_DIR/config/kodi.conf" "$ADDON_DEST"
 fi
