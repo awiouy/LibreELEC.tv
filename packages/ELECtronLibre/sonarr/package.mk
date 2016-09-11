@@ -1,16 +1,9 @@
 PKG_NAME="sonarr"
-PKG_VERSION="2.0.0.4230"
-PKG_REV="100"
-PKG_ARCH="any"
+PKG_VERSION="2.0.0.4323"
 PKG_LICENSE="GPL3"
 PKG_SITE="https://sonarr.tv/"
 PKG_URL="http://download.sonarr.tv/v2/master/mono/NzbDrone.master.$PKG_VERSION.mono.tar.gz"
 PKG_DEPENDS_TARGET="toolchain sonarr_libmediainfo"
-PKG_PRIORITY="optional"
-PKG_SECTION="service"
-PKG_SHORTDESC="Sonarr: a PVR for Usenet and BitTorrent users"
-PKG_LONGDESC="Sonarr ($PKG_VERSION) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available."
-PKG_AUTORECONF="no"
 
 PKG_IS_ADDON="yes"
 PKG_ADDON_NAME="Sonarr"
@@ -18,6 +11,9 @@ PKG_ADDON_TYPE="xbmc.service"
 PKG_ADDON_REPOVERSION="8.0"
 PKG_ADDON_REQUIRES="tools.mono:0.0.0"
 PKG_MAINTAINER="ELECtronLibre"
+PKG_REV="101"
+PKG_SHORTDESC="Sonarr: a PVR for Usenet and BitTorrent users"
+PKG_LONGDESC="Sonarr ($PKG_VERSION) is a PVR for Usenet and BitTorrent users. It can monitor multiple RSS feeds for new episodes of your favorite shows and will grab, sort and rename them. It can also be configured to automatically upgrade the quality of files already downloaded when a better quality format becomes available."
 
 unpack() {
   mkdir -p $PKG_BUILD
