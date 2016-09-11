@@ -1,28 +1,23 @@
 PKG_NAME="transmission"
 PKG_VERSION="2.92"
-PKG_REV="101"
-PKG_ARCH="any"
 PKG_LICENSE="OSS"
 PKG_SITE="http://www.transmissionbt.com/"
-PKG_URL="http://download.transmissionbt.com/files/$PKG_NAME-$PKG_VERSION.tar.xz"
+PKG_URL="https://github.com/transmission/transmission-releases/raw/master/$PKG_NAME-$PKG_VERSION.tar.xz"
 PKG_DEPENDS_TARGET="toolchain curl libevent libressl zlib"
-PKG_PRIORITY="optional"
-PKG_SECTION="service"
-PKG_SHORTDESC="Transmission: a fast, easy and free BitTorrent client"
-PKG_LONGDESC="Transmission ($PKG_VERSION) is a fast, easy and free BitTorrent client"
-PKG_AUTORECONF="yes"
 
 PKG_IS_ADDON="yes"
 PKG_ADDON_NAME="Transmission"
 PKG_ADDON_TYPE="xbmc.service"
 PKG_ADDON_REPOVERSION="8.0"
 PKG_MAINTAINER="ELECtronLibre"
+PKG_REV="101"
+PKG_SHORTDESC="Transmission: a fast, easy and free BitTorrent client"
+PKG_LONGDESC="Transmission ($PKG_VERSION) is a fast, easy and free BitTorrent client"
 
 PKG_CONFIGURE_OPTS_TARGET="--enable-daemon      \
                            --enable-utp         \
                            --disable-nls        \
                            --with-gnu-ld"
-#                          --enable-lightweight \
 
 makeinstall_target() {
   : # nop
