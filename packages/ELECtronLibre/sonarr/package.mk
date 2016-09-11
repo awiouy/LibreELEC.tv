@@ -4,6 +4,7 @@ PKG_LICENSE="GPL3"
 PKG_SITE="https://sonarr.tv/"
 PKG_URL="http://download.sonarr.tv/v2/master/mono/NzbDrone.master.$PKG_VERSION.mono.tar.gz"
 PKG_DEPENDS_TARGET="toolchain sonarr_libmediainfo"
+PKG_SECTION="service"
 
 PKG_IS_ADDON="yes"
 PKG_ADDON_NAME="Sonarr"
