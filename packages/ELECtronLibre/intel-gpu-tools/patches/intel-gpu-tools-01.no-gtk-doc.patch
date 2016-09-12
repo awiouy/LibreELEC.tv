@@ -1,0 +1,21 @@
+diff -Naur a/docs/reference/intel-gpu-tools/Makefile.am b/docs/reference/intel-gpu-tools/Makefile.am
+--- a/docs/reference/intel-gpu-tools/Makefile.am	2016-09-02 16:33:58.000000000 +0200
++++ b/docs/reference/intel-gpu-tools/Makefile.am	2016-09-12 12:44:13.779121113 +0200
+@@ -175,7 +175,7 @@
+ GTKDOC_LIBS=
+ 
+ # This includes the standard gtk-doc make rules, copied by gtkdocize.
+-include $(top_srcdir)/gtk-doc.make
++#include $(top_srcdir)/gtk-doc.make
+ 
+ # Other files to distribute
+ # e.g. EXTRA_DIST += version.xml.in
+@@ -186,7 +186,7 @@
+ # for --rebuild-sections in $(SCAN_OPTIONS) e.g. $(DOC_MODULE)-sections.txt
+ DISTCLEANFILES = $(DOC_MODULE)-sections.txt $(test_program_files)
+ 
+-CLEANFILES += $(test_program_files)
++CLEANFILES = $(test_program_files)
+ 
+ # Comment this out if you want 'make check' to test you doc status
+ # and run some sanity checks
