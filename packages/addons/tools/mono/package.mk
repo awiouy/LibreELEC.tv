@@ -17,9 +17,9 @@
 ################################################################################
 
 PKG_NAME="mono"
-PKG_VERSION="5.8.0.108"
-PKG_SHA256="ecd7c55c2f62caa65fb360ace74a45ee44bbe2de046566d90594ba66c082f39c"
-PKG_REV="110"
+PKG_VERSION="5.10.0.140"
+PKG_SHA256="c7fbad9f2f7e05e206b8353955925b379d0694b74b956a791861459862541954"
+PKG_REV="111"
 PKG_ARCH="any"
 PKG_LICENSE="MIT"
 PKG_SITE="http://www.mono-project.com"
