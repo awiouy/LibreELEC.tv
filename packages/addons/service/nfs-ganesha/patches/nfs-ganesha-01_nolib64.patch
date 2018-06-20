@@ -1,0 +1,20 @@
+diff -Naur nfs-ganesha-2.6.2/src/CMakeLists.txt nfs-ganesha-2.6.2-nolib64/src/CMakeLists.txt
+--- nfs-ganesha-2.6.2/src/CMakeLists.txt	2018-05-09 14:52:13.000000000 +0200
++++ nfs-ganesha-2.6.2-nolib64/src/CMakeLists.txt	2018-06-20 21:31:17.849925484 +0200
+@@ -171,14 +171,8 @@
+ endif(MSVC)
+ 
+ # Library path name
+-get_property(USE_LIB64 GLOBAL PROPERTY FIND_LIBRARY_USE_LIB64_PATHS)
+-if (USE_LIB64)
+-	set(LIB_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/lib64 CACHE PATH
+-		"Specify name of libdir inside install path")
+-else (USE_LIB64)
+-	set(LIB_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/lib CACHE PATH
+-		"Specify name of libdir inside install path")
+-endif (USE_LIB64)
++set(LIB_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/lib CACHE PATH
++	"Specify name of libdir inside install path")
+ 
+ IF(FSAL_DESTINATION)
+     set( FSAL_DESTINATION ${FSAL_DESTINATION} )

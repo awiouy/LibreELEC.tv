@@ -1,0 +1,11 @@
+[Unit]
+Description=NFS Ganesha Fileserver
+Documentation=https://github.com/nfs-ganesha/nfs-ganesha/
+Requires=network-online.target
+
+[Service]
+ExecStart=/bin/sh /storage/.kodi/addons/service.nfs-ganesha/bin/nfs-ganesha.start
+Restart=always
+
+[Install]
+WantedBy=kodi.target
