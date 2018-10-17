@@ -13,7 +13,6 @@ PKG_URL="${DISTRO_SRC}/${PKG_NAME}-${PKG_VERSION}.tar.xz"
 PKG_DEPENDS_TARGET="toolchain linux libhdhomerun"
 PKG_NEED_UNPACK="$LINUX_DEPENDS"
 PKG_SECTION="driver/dvb"
-PKG_SHORTDESC="A linux DVB driver for the HDHomeRun TV tuner (http://www.silicondust.com)."
 PKG_LONGDESC="A linux DVB driver for the HDHomeRun TV tuner (http://www.silicondust.com)."
 PKG_IS_KERNEL_PKG="yes"
 

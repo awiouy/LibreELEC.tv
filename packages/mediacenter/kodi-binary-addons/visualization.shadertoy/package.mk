@@ -12,7 +12,6 @@ PKG_SITE="https://github.com/notspiff/visualization.shadertoy"
 PKG_URL="https://github.com/notspiff/visualization.shadertoy/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION=""
-PKG_SHORTDESC="visualization.shadertoy"
 PKG_LONGDESC="visualization.shadertoy"
 
 PKG_IS_ADDON="yes"

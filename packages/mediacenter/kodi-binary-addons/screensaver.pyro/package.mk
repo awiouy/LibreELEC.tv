@@ -12,7 +12,6 @@ PKG_SITE="https://github.com/notspiff/screensaver.pyro"
 PKG_URL="https://github.com/notspiff/screensaver.pyro/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION=""
-PKG_SHORTDESC="screensaver.pyro"
 PKG_LONGDESC="screensaver.pyro"
 
 PKG_IS_ADDON="yes"

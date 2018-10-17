@@ -11,7 +11,6 @@ PKG_URL="https://github.com/libretro/gw-libretro/archive/$PKG_VERSION.tar.gz"
 PKG_SOURCE_DIR="gw-libretro-$PKG_VERSION*"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION="emulation"
-PKG_SHORTDESC="game.libretro.gw: gw for Kodi"
 PKG_LONGDESC="game.libretro.gw: gw for Kodi"
 
 PKG_LIBNAME="gw_libretro.so"

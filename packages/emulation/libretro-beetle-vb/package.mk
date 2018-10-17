@@ -11,7 +11,6 @@ PKG_URL="https://github.com/libretro/beetle-vb-libretro/archive/$PKG_VERSION.tar
 PKG_SOURCE_DIR="beetle-vb-libretro-$PKG_VERSION*"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION="emulation"
-PKG_SHORTDESC="Standalone port of Mednafen VB to libretro"
 PKG_LONGDESC="Standalone port of Mednafen VB to libretro"
 
 PKG_LIBNAME="mednafen_vb_libretro.so"

@@ -12,7 +12,6 @@ PKG_SITE="http://www.kodi.tv"
 PKG_URL="https://github.com/kodi-pvr/pvr.vbox/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform tinyxml2"
 PKG_SECTION=""
-PKG_SHORTDESC="pvr.vbox"
 PKG_LONGDESC="pvr.vbox"
 
 PKG_IS_ADDON="yes"

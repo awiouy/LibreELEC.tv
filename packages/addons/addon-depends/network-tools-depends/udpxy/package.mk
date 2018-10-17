@@ -10,7 +10,6 @@ PKG_SITE="http://www.udpxy.com"
 PKG_URL="http://www.udpxy.com/download/1_23/${PKG_NAME}.${PKG_VERSION}-prod.tar.gz"
 PKG_DEPENDS_TARGET="toolchain"
 PKG_SECTION="tools"
-PKG_SHORTDESC="udpxy is a UDP-to-HTTP multicast traffic relay daemon"
 PKG_LONGDESC="udpxy is a UDP-to-HTTP multicast traffic relay daemon"
 
 makeinstall_target() {

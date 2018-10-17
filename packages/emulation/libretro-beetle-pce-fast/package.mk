@@ -11,7 +11,6 @@ PKG_URL="https://github.com/libretro/beetle-pce-fast-libretro/archive/$PKG_VERSI
 PKG_SOURCE_DIR="beetle-pce-fast-libretro-$PKG_VERSION*"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION="emulation"
-PKG_SHORTDESC="game.libretro.beetle-pce-fast: Beetle PCE Fast for Kodi"
 PKG_LONGDESC="game.libretro.beetle-pce-fast: Beetle PCE Fast for Kodi"
 
 PKG_LIBNAME="mednafen_pce_fast_libretro.so"

@@ -12,7 +12,6 @@ PKG_SITE="http://www.kodi.tv"
 PKG_URL="https://github.com/kodi-pvr/pvr.vuplus/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION=""
-PKG_SHORTDESC="pvr.vuplus"
 PKG_LONGDESC="pvr.vuplus"
 
 PKG_IS_ADDON="yes"

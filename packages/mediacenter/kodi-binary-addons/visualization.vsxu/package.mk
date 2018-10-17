@@ -12,7 +12,6 @@ PKG_SITE="https://github.com/notspiff/visualization.vsxu"
 PKG_URL="https://github.com/notspiff/visualization.vsxu/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform vsxu"
 PKG_SECTION=""
-PKG_SHORTDESC="visualization.vsxu"
 PKG_LONGDESC="visualization.vsxu"
 
 PKG_IS_ADDON="yes"

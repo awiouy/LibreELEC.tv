@@ -11,7 +11,6 @@ PKG_SITE="http://www.kodi.tv"
 PKG_URL="https://github.com/DigitalDevices/pvr.octonet/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform jsoncpp"
 PKG_SECTION=""
-PKG_SHORTDESC="A pvr plugin for DigitalDevices Octonet Sat>IP servers"
 PKG_LONGDESC="A pvr plugin for DigitalDevices Octonet Sat>IP servers"
 
 PKG_IS_ADDON="yes"

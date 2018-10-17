@@ -12,7 +12,6 @@ PKG_URL="https://github.com/manio/vdr-plugin-dvbapi/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain vdr libdvbcsa"
 PKG_NEED_UNPACK="$(get_pkg_directory vdr)"
 PKG_SECTION="multimedia"
-PKG_SHORTDESC="VDR dvbapi plugin for use with OSCam"
 PKG_LONGDESC="VDR dvbapi plugin for use with OSCam"
 PKG_TOOLCHAIN="manual"
 

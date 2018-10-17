@@ -13,7 +13,6 @@ PKG_SOURCE_DIR="dummydevice-${PKG_VERSION}"
 PKG_DEPENDS_TARGET="toolchain vdr"
 PKG_NEED_UNPACK="$(get_pkg_directory vdr)"
 PKG_SECTION="multimedia"
-PKG_SHORTDESC="This plugin can be used to run vdr as recording server without any output devices."
 PKG_LONGDESC="This plugin can be used to run vdr as recording server without any output devices."
 PKG_TOOLCHAIN="manual"
 

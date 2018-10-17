@@ -11,7 +11,6 @@ PKG_URL="https://github.com/libretro/prosystem-libretro/archive/$PKG_VERSION.tar
 PKG_SOURCE_DIR="prosystem-libretro-$PKG_VERSION*"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION="emulation"
-PKG_SHORTDESC="Port of ProSystem to libretro"
 PKG_LONGDESC="Port of ProSystem to libretro"
 
 PKG_LIBNAME="prosystem_libretro.so"

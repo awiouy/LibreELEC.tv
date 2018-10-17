@@ -11,7 +11,6 @@ PKG_URL="https://github.com/libretro/beetle-psx-libretro/archive/$PKG_VERSION.ta
 PKG_SOURCE_DIR="beetle-psx-libretro-$PKG_VERSION*"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION="emulation"
-PKG_SHORTDESC="Fork of Mednafen PSX"
 PKG_LONGDESC="Fork of Mednafen PSX"
 
 PKG_LIBNAME="mednafen_psx_libretro.so"

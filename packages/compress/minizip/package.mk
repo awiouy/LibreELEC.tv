@@ -10,7 +10,6 @@ PKG_SITE="https://github.com/nmoinvaz/minizip"
 PKG_URL="https://github.com/nmoinvaz/minizip/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="zlib"
 PKG_SECTION="compress"
-PKG_SHORTDESC="Minizip zlib contribution fork with latest bug fixes"
 PKG_LONGDESC="Minizip zlib contribution fork with latest bug fixes"
 
 PKG_CMAKE_OPTS_TARGET="-DUSE_AES=OFF \

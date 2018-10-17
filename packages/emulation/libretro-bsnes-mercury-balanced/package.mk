@@ -11,7 +11,6 @@ PKG_URL="https://github.com/libretro/bsnes-mercury/archive/$PKG_VERSION.tar.gz"
 PKG_SOURCE_DIR="bsnes-mercury-$PKG_VERSION*"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION="emulation"
-PKG_SHORTDESC="game.libretro.beetle-bsnes-balanced: Beetle bSNES for Kodi"
 PKG_LONGDESC="game.libretro.beetle-bsnes-balanced: Beetle bSNES for Kodi"
 
 PKG_LIBNAME="bsnes_mercury_balanced_libretro.so"

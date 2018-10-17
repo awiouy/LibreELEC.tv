@@ -12,7 +12,6 @@ PKG_SITE="http://www.kodi.tv"
 PKG_URL="https://github.com/notspiff/audiodecoder.modplug/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform libmodplug"
 PKG_SECTION=""
-PKG_SHORTDESC="audiodecoder.modplug"
 PKG_LONGDESC="audiodecoder.modplug"
 
 PKG_IS_ADDON="yes"

@@ -12,7 +12,6 @@ PKG_SITE="https://github.com/notspiff/visualization.goom"
 PKG_URL="https://github.com/notspiff/visualization.goom/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION=""
-PKG_SHORTDESC="visualization.goom"
 PKG_LONGDESC="visualization.goom"
 PKG_TOOLCHAIN="cmake-make"
 

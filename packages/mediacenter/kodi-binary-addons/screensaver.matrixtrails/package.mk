@@ -12,7 +12,6 @@ PKG_SITE="https://github.com/notspiff/screensaver.matrixtrails"
 PKG_URL="https://github.com/notspiff/screensaver.matrixtrails/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform soil"
 PKG_SECTION=""
-PKG_SHORTDESC="screensaver.matrixtrails"
 PKG_LONGDESC="screensaver.matrixtrails"
 
 PKG_IS_ADDON="yes"

@@ -11,7 +11,6 @@ PKG_URL="https://github.com/libretro/snes9x2002/archive/$PKG_VERSION.tar.gz"
 PKG_SOURCE_DIR="snes9x2002-$PKG_VERSION*"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION="emulation"
-PKG_SHORTDESC="Port of SNES9x 1.39 for libretro. Heavily optimized for ARM."
 PKG_LONGDESC="Port of SNES9x 1.39 for libretro. Heavily optimized for ARM."
 
 PKG_LIBNAME="snes9x2002_libretro.so"

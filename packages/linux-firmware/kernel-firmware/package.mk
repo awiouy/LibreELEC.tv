@@ -12,7 +12,6 @@ PKG_SOURCE_DIR="$PKG_VERSION"
 PKG_NEED_UNPACK="${PROJECT_DIR}/${PROJECT}/packages/${PKG_NAME} ${PROJECT_DIR}/${PROJECT}/devices/${DEVICE}/packages/${PKG_NAME}"
 PKG_DEPENDS_TARGET="toolchain"
 PKG_SECTION="linux-firmware"
-PKG_SHORTDESC="kernel-firmware: kernel related firmware"
 PKG_LONGDESC="kernel-firmware: kernel related firmware"
 PKG_TOOLCHAIN="manual"
 

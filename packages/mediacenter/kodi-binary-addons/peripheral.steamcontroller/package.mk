@@ -11,7 +11,6 @@ PKG_SITE="https://github.com/kodi-game/peripheral.steamcontroller"
 PKG_URL="https://github.com/kodi-game/peripheral.steamcontroller/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION=""
-PKG_SHORTDESC="peripheral.steamcontroller: Steam controller driver for Kodi"
 PKG_LONGDESC="peripheral.steamcontroller: Steam controller driver for Kodi"
 
 PKG_IS_ADDON="yes"

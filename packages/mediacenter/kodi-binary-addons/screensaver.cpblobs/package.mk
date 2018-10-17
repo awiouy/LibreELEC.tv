@@ -12,7 +12,6 @@ PKG_SITE="https://github.com/notspiff/screensaver.cpblobs"
 PKG_URL="https://github.com/notspiff/screensaver.cpblobs/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform soil"
 PKG_SECTION=""
-PKG_SHORTDESC="screensaver.cpblobs"
 PKG_LONGDESC="screensaver.cpblobs"
 
 PKG_IS_ADDON="yes"

@@ -12,7 +12,6 @@ PKG_SITE="https://github.com/notspiff/screensaver.greynetic"
 PKG_URL="https://github.com/notspiff/screensaver.greynetic/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION=""
-PKG_SHORTDESC="screensaver.greynetic"
 PKG_LONGDESC="screensaver.greynetic"
 
 PKG_IS_ADDON="yes"

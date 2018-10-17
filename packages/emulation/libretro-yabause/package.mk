@@ -11,7 +11,6 @@ PKG_URL="https://github.com/libretro/yabause/archive/$PKG_VERSION.tar.gz"
 PKG_SOURCE_DIR="yabause-$PKG_VERSION*"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION="emulation"
-PKG_SHORTDESC="game.libretro.yabause: Yabause for Kodi"
 PKG_LONGDESC="game.libretro.yabause: Yabause for Kodi"
 PKG_TOOLCHAIN="manual"
 

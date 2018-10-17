@@ -10,7 +10,6 @@ PKG_SITE="http://www.lonesock.net/soil.html"
 PKG_URL="$DISTRO_SRC/$PKG_NAME-$PKG_VERSION.tar.xz"
 PKG_DEPENDS_TARGET="toolchain mesa"
 PKG_SECTION="graphics"
-PKG_SHORTDESC="A tiny C lib primarily for loading textures into OpenGL"
 PKG_LONGDESC="A tiny C lib primarily for loading textures into OpenGL"
 PKG_BUILD_FLAGS="+pic"
 

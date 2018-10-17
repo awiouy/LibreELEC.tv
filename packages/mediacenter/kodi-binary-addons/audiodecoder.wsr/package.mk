@@ -12,7 +12,6 @@ PKG_SITE="https://github.com/notspiff/audiodecoder.wsr"
 PKG_URL="https://github.com/notspiff/audiodecoder.wsr/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION=""
-PKG_SHORTDESC="audiodecoder.wsr"
 PKG_LONGDESC="audiodecoder.wsr"
 
 PKG_IS_ADDON="yes"

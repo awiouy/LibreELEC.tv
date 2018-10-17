@@ -11,7 +11,6 @@ PKG_URL="https://github.com/libretro/beetle-bsnes-libretro/archive/$PKG_VERSION.
 PKG_SOURCE_DIR="beetle-bsnes-libretro-$PKG_VERSION*"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION="emulation"
-PKG_SHORTDESC="game.libretro.beetle-bsnes: Beetle bSNES for Kodi"
 PKG_LONGDESC="game.libretro.beetle-bsnes: Beetle bSNES for Kodi"
 
 PKG_LIBNAME="mednafen_snes_libretro.so"

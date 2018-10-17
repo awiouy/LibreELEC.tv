@@ -12,7 +12,6 @@ PKG_SITE="https://github.com/notspiff/screensaver.asteroids"
 PKG_URL="https://github.com/notspiff/screensaver.asteroids/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION=""
-PKG_SHORTDESC="screensaver.asteroids"
 PKG_LONGDESC="screensaver.asteroids"
 
 PKG_IS_ADDON="yes"

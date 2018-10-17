@@ -12,7 +12,6 @@ PKG_SITE="https://github.com/notspiff/screensaver.stars"
 PKG_URL="https://github.com/notspiff/screensaver.stars/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION=""
-PKG_SHORTDESC="screensaver.stars"
 PKG_LONGDESC="screensaver.stars"
 
 PKG_IS_ADDON="yes"

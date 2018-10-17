@@ -12,7 +12,6 @@ PKG_SITE="https://github.com/FernetMenta/pvr.vdr.vnsi"
 PKG_URL="https://github.com/FernetMenta/pvr.vdr.vnsi/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION=""
-PKG_SHORTDESC="pvr.vdr.vnsi"
 PKG_LONGDESC="pvr.vdr.vnsi"
 
 PKG_IS_ADDON="yes"

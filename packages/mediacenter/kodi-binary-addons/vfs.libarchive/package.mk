@@ -11,7 +11,6 @@ PKG_SITE="http://www.kodi.tv"
 PKG_URL="https://github.com/notspiff/vfs.libarchive/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform bzip2 libarchive lz4 lzo xz zlib"
 PKG_SECTION=""
-PKG_SHORTDESC="vfs.libarchive"
 PKG_LONGDESC="vfs.libarchive"
 
 PKG_IS_ADDON="yes"

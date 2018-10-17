@@ -11,7 +11,6 @@ PKG_URL="https://github.com/libretro/mupen64plus-libretro/archive/$PKG_VERSION.t
 PKG_SOURCE_DIR="mupen64plus-libretro-$PKG_VERSION*"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION="emulation"
-PKG_SHORTDESC="game.libretro.mupen64plus: Mupen64Plus for Kodi"
 PKG_LONGDESC="game.libretro.mupen64plus: Mupen64Plus for Kodi"
 
 PKG_LIBNAME="mupen64plus_libretro.so"

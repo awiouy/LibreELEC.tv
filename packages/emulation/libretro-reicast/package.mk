@@ -11,7 +11,6 @@ PKG_URL="https://github.com/libretro/reicast-emulator/archive/$PKG_VERSION.tar.g
 PKG_SOURCE_DIR="reicast-emulator-$PKG_VERSION*"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION="emulation"
-PKG_SHORTDESC="Reicast is a multiplatform Sega Dreamcast emulator"
 PKG_LONGDESC="Reicast is a multiplatform Sega Dreamcast emulator"
 
 PKG_LIBNAME="reicast_libretro.so"

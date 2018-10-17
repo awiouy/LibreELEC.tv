@@ -12,7 +12,6 @@ PKG_URL="https://github.com/vdr-projects/vdr-plugin-epgfixer/archive/$PKG_VERSIO
 PKG_DEPENDS_TARGET="toolchain vdr pcre"
 PKG_NEED_UNPACK="$(get_pkg_directory vdr)"
 PKG_SECTION="multimedia"
-PKG_SHORTDESC="Plugin for modifying EPG data using regular expressions."
 PKG_LONGDESC="Plugin for modifying EPG data using regular expressions."
 PKG_TOOLCHAIN="manual"
 

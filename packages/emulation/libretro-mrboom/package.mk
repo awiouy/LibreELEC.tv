@@ -11,7 +11,6 @@ PKG_URL="https://github.com/libretro/mrboom-libretro/archive/$PKG_VERSION.tar.gz
 PKG_SOURCE_DIR="mrboom-libretro-$PKG_VERSION*"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION="emulation"
-PKG_SHORTDESC="game.libretro.mrboom: mrboom for Kodi"
 PKG_LONGDESC="game.libretro.mrboom: mrboom for Kodi"
 
 PKG_LIBNAME="mrboom_libretro.so"

@@ -11,7 +11,6 @@ PKG_URL="https://github.com/libretro/tgbdual-libretro/archive/$PKG_VERSION.tar.g
 PKG_SOURCE_DIR="tgbdual-libretro-$PKG_VERSION*"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION="emulation"
-PKG_SHORTDESC="game.libretro.tgbdual: tgbdual for Kodi"
 PKG_LONGDESC="game.libretro.tgbdual: tgbdual for Kodi"
 
 PKG_LIBNAME="tgbdual_libretro.so"

@@ -13,7 +13,6 @@ PKG_SOURCE_DIR="rtl8192cu-fixes-$PKG_VERSION*"
 PKG_DEPENDS_TARGET="toolchain linux"
 PKG_NEED_UNPACK="$LINUX_DEPENDS"
 PKG_SECTION="driver"
-PKG_SHORTDESC="Realtek RTL81xxCU Linux 3.x driver"
 PKG_LONGDESC="Realtek RTL81xxCU Linux 3.x driver"
 PKG_IS_KERNEL_PKG="yes"
 

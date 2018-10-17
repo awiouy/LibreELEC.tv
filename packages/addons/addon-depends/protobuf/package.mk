@@ -11,7 +11,6 @@ PKG_URL="https://github.com/google/$PKG_NAME/releases/download/v$PKG_VERSION/$PK
 PKG_DEPENDS_HOST="toolchain zlib:host"
 PKG_DEPENDS_TARGET="toolchain zlib protobuf:host"
 PKG_SECTION="devel"
-PKG_SHORTDESC="protobuf: Protocol Buffers - Google's data interchange format"
 PKG_LONGDESC="protobuf: Protocol Buffers - Google's data interchange format"
 
 PKG_CMAKE_SCRIPT="$PKG_BUILD/cmake/CMakeLists.txt"

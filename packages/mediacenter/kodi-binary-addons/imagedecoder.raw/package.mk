@@ -11,7 +11,6 @@ PKG_SITE="https://github.com/notspiff/imagedecoder.raw"
 PKG_URL="https://github.com/notspiff/imagedecoder.raw/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform libraw"
 PKG_SECTION=""
-PKG_SHORTDESC="imagedecoder.raw"
 PKG_LONGDESC="imagedecoder.raw"
 
 PKG_IS_ADDON="yes"

@@ -12,7 +12,6 @@ PKG_SITE="https://github.com/notspiff/visualization.projectm"
 PKG_URL="https://github.com/notspiff/visualization.projectm/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform libprojectM"
 PKG_SECTION=""
-PKG_SHORTDESC="visualization.projectm"
 PKG_LONGDESC="visualization.projectm"
 
 PKG_IS_ADDON="yes"

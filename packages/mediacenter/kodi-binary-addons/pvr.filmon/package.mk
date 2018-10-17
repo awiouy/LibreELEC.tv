@@ -12,7 +12,6 @@ PKG_SITE="http://www.kodi.tv"
 PKG_URL="https://github.com/kodi-pvr/pvr.filmon/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform jsoncpp"
 PKG_SECTION=""
-PKG_SHORTDESC="pvr.filmon"
 PKG_LONGDESC="pvr.filmon"
 
 PKG_IS_ADDON="yes"

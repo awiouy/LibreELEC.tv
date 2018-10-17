@@ -10,7 +10,6 @@ PKG_SITE="http://linode.boundarydevices.com/repos/apt/ubuntu-relx/pool/main/q/qc
 PKG_URL="$DISTRO_SRC/$PKG_NAME-$PKG_VERSION.tar.xz"
 PKG_DEPENDS_TARGET="toolchain"
 PKG_SECTION="firmware"
-PKG_SHORTDESC="qca9377 Linux firmware"
 PKG_LONGDESC="qca9377 Linux firmware"
 PKG_TOOLCHAIN="manual"
 

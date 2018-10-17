@@ -12,7 +12,6 @@ PKG_SITE="https://github.com/notspiff/audiodecoder.qsf"
 PKG_URL="https://github.com/notspiff/audiodecoder.qsf/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION=""
-PKG_SHORTDESC="audiodecoder.qsf"
 PKG_LONGDESC="audiodecoder.qsf"
 
 PKG_IS_ADDON="yes"

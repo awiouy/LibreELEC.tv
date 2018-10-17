@@ -12,7 +12,6 @@ PKG_SITE="http://www.kodi.tv"
 PKG_URL="https://github.com/notspiff/screensavers.rsxs/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform libXt libXmu"
 PKG_SECTION=""
-PKG_SHORTDESC="screensavers.rsxs"
 PKG_LONGDESC="screensavers.rsxs"
 
 PKG_IS_ADDON="yes"

@@ -11,7 +11,6 @@ PKG_SITE="https://kodi.tv"
 PKG_URL="https://github.com/palinek/pvr.sledovanitv.cz/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform jsoncpp"
 PKG_SECTION=""
-PKG_SHORTDESC="pvr.sledovanitv.cz"
 PKG_LONGDESC="pvr.sledovanitv.cz"
 
 PKG_IS_ADDON="yes"

@@ -12,7 +12,6 @@ PKG_SITE="https://github.com/notspiff/screensaver.asterwave"
 PKG_URL="https://github.com/notspiff/screensaver.asterwave/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform soil"
 PKG_SECTION=""
-PKG_SHORTDESC="screensaver.asterwave"
 PKG_LONGDESC="screensaver.asterwave"
 
 PKG_IS_ADDON="yes"

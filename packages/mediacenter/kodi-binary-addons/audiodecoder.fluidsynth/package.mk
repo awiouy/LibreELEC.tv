@@ -12,7 +12,6 @@ PKG_SITE="https://github.com/notspiff/audiodecoder.fluidsynth"
 PKG_URL="https://github.com/notspiff/audiodecoder.fluidsynth/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform fluidsynth"
 PKG_SECTION=""
-PKG_SHORTDESC="audiodecoder.fluidsynth"
 PKG_LONGDESC="audiodecoder.fluidsynth"
 
 PKG_IS_ADDON="yes"

@@ -12,7 +12,6 @@ PKG_SITE="https://github.com/notspiff/audiodecoder.gme"
 PKG_URL="https://github.com/notspiff/audiodecoder.gme/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform"
 PKG_SECTION=""
-PKG_SHORTDESC="audiodecoder.gme"
 PKG_LONGDESC="audiodecoder.gme"
 
 PKG_IS_ADDON="yes"

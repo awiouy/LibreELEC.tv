@@ -10,7 +10,6 @@ PKG_SITE="http://git.savannah.gnu.org/cgit/config.git"
 PKG_URL="http://git.savannah.gnu.org/cgit/config.git/snapshot/$PKG_VERSION.tar.xz"
 PKG_SOURCE_DIR="$PKG_VERSION*"
 PKG_DEPENDS_HOST=""
-PKG_SHORTDESC="configtools"
 PKG_LONGDESC="configtools"
 PKG_TOOLCHAIN="manual"
 

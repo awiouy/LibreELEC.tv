@@ -11,7 +11,6 @@ PKG_SITE="https://github.com/glenvt18/libdvbcsa/"
 PKG_URL="https://github.com/glenvt18/libdvbcsa/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain"
 PKG_SECTION="lib"
-PKG_SHORTDESC="libdvbcsa is a free implementation of the DVB Common Scrambling Algorithm - DVB/CSA - with encryption and decryption capabilities"
 PKG_LONGDESC="libdvbcsa is a free implementation of the DVB Common Scrambling Algorithm - DVB/CSA - with encryption and decryption capabilities"
 PKG_TOOLCHAIN="autotools"
 # libdvbcsa is a bit faster without LTO, and tests will fail with gcc-5.x

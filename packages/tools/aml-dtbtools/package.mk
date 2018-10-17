@@ -9,7 +9,6 @@ PKG_LICENSE="free"
 PKG_SITE="https://github.com/Wilhansen/aml-dtbtools"
 PKG_URL="https://github.com/Wilhansen/aml-dtbtools/archive/${PKG_VERSION}.tar.gz"
 PKG_SECTION="tools"
-PKG_SHORTDESC="AML DTB Tools"
 PKG_LONGDESC="AML DTB Tools"
 
 PKG_MAKE_OPTS_HOST="dtbTool"

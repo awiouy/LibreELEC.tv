@@ -10,7 +10,6 @@ PKG_SITE="http://premium.caribe.net/~adrian2/fdupes.html"
 PKG_URL="https://github.com/adrianlopezroche/fdupes/archive/v${PKG_VERSION}.tar.gz"
 PKG_DEPENDS_TARGET="toolchain"
 PKG_SECTION="tools"
-PKG_SHORTDESC="FDUPES is a program for identifying or deleting duplicate files residing within specified directories"
 PKG_LONGDESC="FDUPES is a program for identifying or deleting duplicate files residing within specified directories"
 
 makeinstall_target() {

@@ -11,7 +11,6 @@ PKG_SITE="https://kodi.tv"
 PKG_URL="https://github.com/notspiff/vfs.sftp/archive/$PKG_VERSION.tar.gz"
 PKG_DEPENDS_TARGET="toolchain kodi-platform libssh"
 PKG_SECTION=""
-PKG_SHORTDESC="vfs.sftp"
 PKG_LONGDESC="vfs.sftp"
 
 PKG_IS_ADDON="yes"

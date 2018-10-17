@@ -12,7 +12,6 @@ PKG_URL="https://github.com/vdr-projects/vdr-plugin-xmltv2vdr/archive/${PKG_VERS
 PKG_DEPENDS_TARGET="toolchain vdr sqlite curl libzip libxml2 libxslt enca pcre"
 PKG_NEED_UNPACK="$(get_pkg_directory vdr)"
 PKG_SECTION="multimedia"
-PKG_SHORTDESC="xmltv2vdr imports data in xmltv format"
 PKG_LONGDESC="xmltv2vdr imports data in xmltv format"
 PKG_TOOLCHAIN="manual"
 PKG_BUILD_FLAGS="+pic"
