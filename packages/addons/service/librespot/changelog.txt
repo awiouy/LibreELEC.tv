@@ -1,3 +1,10 @@
+116
+- Only use Kodi
+- Rework
+
+115
+- Update to daeeeaa (22-02-2019)
+
 114
 - Fix discovery mode setting
 - Start after Kodi
