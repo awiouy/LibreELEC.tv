@@ -6,7 +6,6 @@
 . /etc/profile
 oe_setup_addon service.snapserver
 
-
 ASOUND_CONF="/run/asound.conf"
 KODI_ASOUND_CONF="$ADDON_DIR/config/asound.conf.kodi"
 KODI_ASOUND_FIFO="/tmp/snapkodi"
@@ -17,25 +16,13 @@ if [ -f "$ASOUND_CONF" ]; then
 fi
 cat "$KODI_ASOUND_CONF" >> "$ASOUND_CONF"
 
-case "$ss_st" in
-  Default)
-    stream="pipe:///tmp/snapfifo?name=Default"
-    ;;
-  Kodi)
-    stream="pipe://$KODI_ASOUND_FIFO?name=Kodi"
-    ;;
-  Spotify)
-    stream="spotify:///librespot?name=Spotify"
-    ;;
-  *)
-    stream="airplay:///shairport-sync?name=AirPlay"
-    ;;
-esac
-
 HOME="$ADDON_HOME" \
 nice -n "$ss_ni" \
 snapserver \
   --controlPort  "$ss_cp"  \
   --port         "$ss_sp"  \
-  --stream       "$stream" \
+  --stream       "airplay:///shairport-sync?name=AirPlay" \
+  --stream       "pipe://$KODI_ASOUND_FIFO?name=Kodi" \
+  --stream       "spotify:///librespot?name=Spotify" \
+  --stream       "pipe:///tmp/snapfifo?name=Default" \
   > /dev/null
