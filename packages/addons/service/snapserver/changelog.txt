@@ -1,5 +1,8 @@
 103
+- Provide Airplay, Default, Kodi and Spotify streams simultaneously
+- Basic client control: stream, mute, volume
 - Switch from PulseAudio to ALSA
+- Update system.d service unit
 
 102
 - Update to 0.15.0
